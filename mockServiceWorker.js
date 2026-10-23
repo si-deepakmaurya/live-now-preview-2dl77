@@ -6,7 +6,7 @@
 // mock layer, so they're served here directly, and kept in the cache so repeat visits don't re-download
 // them. API calls still go to the mock handlers.
 const QP_BASE = new URL(self.registration.scope).pathname // e.g. "/qp-preview-6wh5e/"
-const QP_CACHE = 'qp-static-1792744251'
+const QP_CACHE = 'qp-static-1792744467'
 
 addEventListener('activate', function (event) {
   event.waitUntil(
